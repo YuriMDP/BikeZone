@@ -23,10 +23,34 @@ body{
   height: 120%;
   margin-left: -20%;
   margin-top: -0.5%;
-  transition: 1s;
+  animation-duration: 2s;
+  animation-name: deslize;
+  animation-fill-mode: forwards;
+}
+@keyframes deslize{
+  from{
+    margin-left: -20%;
+  }
+  to{
+    margin-left: -102.3%;
+  }
 }
 #bike-menu img{
   height: 200%;
   margin-top: -2.8%;
   margin-left: 100.3%;
+}
+#menu-nav{
+  width: 70%;
+  list-style: none;
+  display: flex;
+  margin-top: -4.2%;
+  margin-left: 14%;
+  justify-content: space-between;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+}
+#perfil-btn img{
+  width: 10px;
 }
