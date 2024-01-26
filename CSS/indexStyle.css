@@ -84,9 +84,14 @@ body{
   position: absolute;
   border: solid;
   border-radius: 25px;
+  transition: all 0.5s ease;
+}
+.carr-cards img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #carr-1{
-background-color: var(--verde2);
 margin-left: 35%;
 width: 30%;
 height: 100%;
@@ -94,7 +99,6 @@ border-color: var(--verde1);
 z-index: 4;
 }
 #carr-2{
-  background-color: var(--amarelo1);
   margin-left: 25%;
   height: 80%;
   width: 24%;
@@ -103,7 +107,6 @@ z-index: 4;
   z-index: 3;
 }
 #carr-5{
-  background-color: var(--amarelo1);
   margin-left: 51%;
   height: 80%;
   width: 24%;
@@ -112,7 +115,6 @@ z-index: 4;
   z-index: 3;
 }
 #carr-3{
-  background-color: var(--verde2);
   height: 60%;
   width: 18%;
   margin-left: 20%;
@@ -121,7 +123,6 @@ z-index: 4;
   z-index: 2;
 }
 #carr-4{
-  background-color: var(--verde2);
   height: 60%;
   width: 18%;
   margin-left: 62%;
@@ -164,7 +165,7 @@ z-index: 4;
   object-fit: cover;
 }
 #seta1{
-  margin-left: 33%;
+  margin-left: 32.5%;
 }
 #seta2{
   margin-left: 63%;
